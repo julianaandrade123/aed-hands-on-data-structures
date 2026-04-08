@@ -3,9 +3,9 @@ from src.my_array import MyArray
 
 def linear_search(array: MyArray, target: int) -> int:
     """
-    Realiza uma busca em um MyArray.
+    for index in range(len(Array))
+        if array.get(index) == target
+            return index
 
-    Deve retornar o índice da primeira ocorrência do valor,
-    ou -1 caso o valor não esteja presente.
-    """
-    raise NotImplementedError
+        return -1
+    
